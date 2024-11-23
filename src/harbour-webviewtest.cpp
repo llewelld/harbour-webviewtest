@@ -1,3 +1,7 @@
+/* vim: set et ts=4 sts=4 sw=4: */
+/* SPDX-License-Identifier: BSD-2-Clause */
+/* Copyright © 2024 David Llewellyn-Jones */
+
 #include <QtQuick>
 
 #include <sailfishapp.h>
