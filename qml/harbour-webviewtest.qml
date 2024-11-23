@@ -5,5 +5,5 @@ import "pages"
 ApplicationWindow {
     initialPage: Component { Main { } }
     cover: Qt.resolvedUrl("cover/CoverPage.qml")
-    allowedOrientations: defaultAllowedOrientations
+    allowedOrientations: Orientation.Landscape
 }

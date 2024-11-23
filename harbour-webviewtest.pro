@@ -17,12 +17,13 @@ CONFIG += sailfishapp
 SOURCES += src/harbour-webviewtest.cpp
 
 DISTFILES += qml/harbour-webviewtest.qml \
+    qml/components/InfoText.qml \
+    qml/components/NavBar.qml \
+    qml/components/NavButton.qml \
     qml/cover/CoverPage.qml \
     qml/js/DomWalk.js \
     qml/pages/Main.qml \
     qml/components/InfoBar.qml \
-    qml/components/ToolBar.qml \
-    qml/components/ToolButton.qml \
     rpm/harbour-webviewtest.changes.in \
     rpm/harbour-webviewtest.changes.run.in \
     rpm/harbour-webviewtest.spec \

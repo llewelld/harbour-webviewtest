@@ -1,8 +1,11 @@
+/* vim: set et ts=4 sts=4 sw=4: */
+/* SPDX-License-Identifier: BSD-2-Clause */
+/* Copyright © 2024 David Llewellyn-Jones */
+
 import QtQuick 2.6
 import Sailfish.Silica 1.0
 
 Row {
-    id: infobar
     height: Theme.iconSizeLarge
     leftPadding: Theme.paddingSmall
 
@@ -12,27 +15,15 @@ Row {
         "maxbreadth": 0
     }
 
-    Label {
-        id: nodes
-        text: "Nodes: " + infobar.dominfo.nodes
-        anchors.verticalCenter: parent.verticalCenter
-        color: Theme.highlightColor
-        width: parent.width / 3
+    InfoText {
+        text: "Nodes: " + dominfo.nodes
     }
 
-    Label {
-        id: depth
-        anchors.verticalCenter: parent.verticalCenter
-        text: "Height: " + infobar.dominfo.maxdepth
-        color: Theme.highlightColor
-        width: parent.width / 3
+    InfoText {
+        text: "Height: " + dominfo.maxdepth
     }
 
-    Label {
-        id: breadth
-        text: "Width: " + infobar.dominfo.maxbreadth
-        anchors.verticalCenter: parent.verticalCenter
-        color: Theme.highlightColor
-        width: parent.width / 3
+    InfoText {
+        text: "Width: " + dominfo.maxbreadth
     }
 }

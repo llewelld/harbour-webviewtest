@@ -5,10 +5,9 @@ import "../components"
 
 Page {
     Column {
-        id: column
         anchors.fill: parent
 
-        ToolBar {
+        NavBar {
             id: toolbar
             webview: webview
             width: parent.width
@@ -26,7 +25,6 @@ Page {
 
             function getInfo() {
                 runJavaScript(domwalk, function(result) {
-                    console.log("CALLBACK: " + result);
                     infobar.dominfo = JSON.parse(result);
                 });
             }
