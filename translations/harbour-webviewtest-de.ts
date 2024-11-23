@@ -8,4 +8,26 @@
         <translation>Mein Cover</translation>
     </message>
 </context>
+<context>
+    <name>InfoBar</name>
+    <message>
+        <source>Nodes: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Height: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Width: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>NavBar</name>
+    <message>
+        <source>Enter the URL</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
 </TS>

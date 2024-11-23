@@ -16,14 +16,14 @@ Row {
     }
 
     InfoText {
-        text: "Nodes: " + dominfo.nodes
+        text: qsTr("Nodes: %1").arg(dominfo.nodes)
     }
 
     InfoText {
-        text: "Height: " + dominfo.maxdepth
+        text: qsTr("Height: %1").arg(dominfo.maxdepth)
     }
 
     InfoText {
-        text: "Width: " + dominfo.maxbreadth
+        text: qsTr("Width: %1").arg(dominfo.maxbreadth)
     }
 }

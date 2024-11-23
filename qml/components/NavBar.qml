@@ -29,7 +29,7 @@ Row {
         y: (Theme.iconSizeLarge - Theme.iconSizeMedium) / 2
         height: Theme.iconSizeMedium
         labelVisible: false
-        placeholderText: "Enter the URL"
+        placeholderText: qsTr("Enter the URL")
         text: toolbar.webview.url
         width: parent.width - (3 * Theme.iconSizeMedium)
         EnterKey.onClicked: toolbar.webview.url = text
