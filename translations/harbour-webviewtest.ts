@@ -4,7 +4,11 @@
 <context>
     <name>CoverPage</name>
     <message>
-        <source>My Cover</source>
+        <source>Gecko WebView</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Demo</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

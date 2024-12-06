@@ -2,21 +2,23 @@ import QtQuick 2.0
 import Sailfish.Silica 1.0
 
 CoverBackground {
-    Label {
-        id: label
-        anchors.centerIn: parent
-        text: qsTr("My Cover")
-    }
+    Column {
+        width: parent.width
+        height: parent.height - (2 * Theme.paddingLarge)
+        y: 2 * Theme.paddingLarge
+        spacing: Theme.paddingLarge
 
-    CoverActionList {
-        id: coverAction
-
-        CoverAction {
-            iconSource: "image://theme/icon-cover-next"
+        Label {
+            id: label
+            width: parent.width
+            horizontalAlignment: "AlignHCenter"
+            text: qsTr("Gecko WebView")
         }
 
-        CoverAction {
-            iconSource: "image://theme/icon-cover-pause"
+        Label {
+            width: parent.width
+            horizontalAlignment: "AlignHCenter"
+            text: qsTr("Demo")
         }
     }
 }
